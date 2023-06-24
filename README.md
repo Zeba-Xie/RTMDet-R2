@@ -27,7 +27,6 @@ Object detection in remote sensing images is challenging due to the complexity o
 |RTMDet-l|IN|RR|51.13|56.18|79.46|61.44|255.23|88|[config](configs/rtmdet-r2/dota/l-3x.py)|[model](https://pan.baidu.com/s/1s-JFgZU2i41ma4vFDY2MSw)|
 
 * By default, DOTA-v1.0 dataset trained with 3x schedule and image size 1024*1024.
-
 * The FPS test is conducted on 10832 images in the DOTA1.0 test set to calculate the average value.
 
 ### HRSC2016
@@ -42,9 +41,9 @@ Object detection in remote sensing images is challenging due to the complexity o
 **Note**:
 
 1. We follow the latest metrics from the DOTA evaluation server, original voc format mAP is now mAP50.
-2. ​`IN`​ means ImageNet pretrain.
+2. ​`IN`​ means ImageNet pretrain. RR means Random rotate and Flip.
 3. The inference speed is measured on an NVIDIA 3090 GPU with TensorRT 8.4.3, cuDNN 8.3.2, FP16, batch size=1, and with NMS.
-* The extraction code of BaiduYun is `6666`.
+4. The extraction code of BaiduYun is `6666`.
 
 ## Citation
 
