@@ -19,7 +19,7 @@ Object detection in remote sensing images is challenging due to the absence of v
 
 ### DOTA 1.0
 
-|Backbone|Pretrain|Aug|mmAP|mAP50|mAP75|Params(M)|FLOPs(G)|TRT-FP16-FPS|Config|Download|
+|Backbone|Pretrain|Aug|mmAP|mAP75|mAP50|Params(M)|FLOPs(G)|TRT-FP16-FPS|Config|Download|
 | :--------: | :--------: | :---: | :-----: | :-----: | :-----: | :---------: | :--------: | :------------: | :------: | :--------: |
 |RTMDet-t|IN|RR|47.71|51.00|77.27|6.19|27.74|181|[config](configs/rtmdet-r2/dota/t-3x.py)|[model](https://pan.baidu.com/s/1vlG2SX6Q6dJblllfVPH8uQ)|
 |RTMDet-s|IN|RR|48.81|51.66|78.43|11.17|50.50|175|[config](configs/rtmdet-r2/dota/s-3x.py)|[model](https://pan.baidu.com/s/1IAWXCU2_NsBlR4Al01RJVQ)|
