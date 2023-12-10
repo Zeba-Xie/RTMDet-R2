@@ -118,12 +118,9 @@ dmypy.json
 .DS_Store
 .idea
 *work_dirs*
-#data/ # data just link
-#data
 tmp
 
 # custom
-mmrotate/
 mmrotate/.mim
 /checkpoints
 *.pth

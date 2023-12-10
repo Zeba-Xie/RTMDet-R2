@@ -268,18 +268,18 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=29500 tools/
        --launcher pytorch
 ```
 
-在运行RTMDet的benchmark的时候，会遇到错误，Modified by xhf
+When running RTMDet's benchmark, errors may be encountered. 
 
-`/tools/miniconda3/envs/xhf_mmr_1x/lib/python3.8/site-packages/mmdet/utils/benchmark.py`
+So, modify `xxx/mmdet/utils/benchmark.py`
 
 ```shell
-# InferenceBenchmark._init_model中添加以下代码
-# error if delete, modified by xhf
+# modify InferenceBenchmark._init_model
+# add
 if 'pretrained' in self.cfg.model:
     print("cfg.model", self.cfg.model)
     del self.cfg.model['pretrained']
 
-# InferenceBenchmark.run_once中修改
+# modify InferenceBenchmark.run_once
 self.model(data['inputs'][0][None].float())
 
 ```
