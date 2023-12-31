@@ -49,8 +49,8 @@ Object detection in remote sensing images is challenging due to the absence of v
 
 ---
 
-```python
-# Please wait for the results of the 2023 PRCV.
+```txt
+Xiang H, Jing N, Jiang J, et al. RTMDet-R2：An Improved Real-Time Rotated Object Detector[C]// The 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV). Cham: Springer International Publishing, 2023: 352-364.
 ```
 
 ‍
