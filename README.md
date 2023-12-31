@@ -26,8 +26,8 @@ Object detection in remote sensing images is challenging due to the absence of v
 |RTMDet-m|IN|RR|51.08|55.03|79.10|29.84|128.55|111|[config](configs/rtmdet-r2/dota/m-3x.py)|[model](https://pan.baidu.com/s/167_7tigmseQx0cGDvA3LoQ)|
 |RTMDet-l|IN|RR|51.13|56.18|79.46|61.44|255.23|88|[config](configs/rtmdet-r2/dota/l-3x.py)|[model](https://pan.baidu.com/s/1s-JFgZU2i41ma4vFDY2MSw)|
 
-* By default, DOTA-v1.0 dataset trained with 3x schedule and image size 1024*1024.
-* The FPS test is conducted on 10832 images in the DOTA1.0 test set to calculate the average value.
+* By default, DOTA 1.0 dataset trained with 3x schedule and image size 1024*1024.
+* The FPS test is conducted on 10832 images in the DOTA 1.0 test set to calculate the average value.
 
 ### HRSC2016
 
@@ -35,8 +35,8 @@ Object detection in remote sensing images is challenging due to the absence of v
 | :--------: | :--------: | :---: | :------: | :------: | :---------: | :--------: | :------------: | :------: | :--------: |
 |RTMDet-t|IN|RR|90.63|97.44|6.19|16.91|231|[config](configs/rtmdet-r2/hrsc/t-9x.py)|[model](https://pan.baidu.com/s/133jnFCjYreqMcf7cMNC36Q)|
 
-* By default, HRSC dataset trained with 9x schedule and image size 800*800.
-* The FPS test is conducted on 443 images in the DOTA test set to calculate the average value.
+* By default, HRSC2016 dataset trained with 9x schedule and image size 800*800.
+* The FPS test is conducted on 443 images in the HRSC2016 test set to calculate the average value.
 
 **Note**:
 
